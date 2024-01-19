@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/book-mobile.css" />
+    <title>어디가개?</title>
+  </head>
+  <body>
+    <main>
+      <form action="#" class="book-form">
+        <div class="book-container">
+          <h3>예매하기</h3>
+          <label course-labelfor="course">투어 코스 선택</label>
+          <select name="course" id="course">
+            <option value="1">course1</option>
+            <option value="2">course2</option>
+            <option value="3">course3</option>
+            <option value="4">course4</option>
+          </select>
+          <label for="accomodation">숙소 선택</label>
+          <select name="accomodation" id="accomodation">
+            <option value="1">acc1</option>
+            <option value="2">acc2</option>
+            <option value="3">acc3</option>
+            <option value="4">acc4</option>
+          </select>
+        </div>
+        <div class="book-info-container">
+          <div class="book-info-container__start">
+            <label for="people">인원</label>
+            <input type="number" id="people" />
+          </div>
+          <div class="book-info-container__end">
+            <label for="date">날짜</label>
+            <input type="date" id="date" />
+          </div>
+        </div>
+        <div class="submit-container">
+          <div class="submit-container__start">
+            <button>문의하기</button>
+            <button>찜하기</button>
+          </div>
+          <div class="submit-container__end">
+            <input type="submit" value="예매하기" />
+          </div>
+        </div>
+      </form>
+    </main>
+    <iframe
+      src="../html/components/footer.html "
+      frameborder="0"
+      width="100%"
+      height="96px"
+    ></iframe>
+  </body>
+</html>
